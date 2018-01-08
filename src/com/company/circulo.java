@@ -2,13 +2,11 @@ package com.company;
 
 public class circulo {
     private int radio;
-    private double coordX;
-    private double coordY;
+    posicion posicion;
 
-    public circulo(int radio, double coordX, double coordY) {
+    public circulo(int radio, com.company.posicion posicion) {
         this.radio = radio;
-        this.coordX = coordX;
-        this.coordY = coordY;
+        this.posicion = posicion;
     }
 
     public static void area(){}

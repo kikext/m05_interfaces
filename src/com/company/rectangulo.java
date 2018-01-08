@@ -3,14 +3,12 @@ package com.company;
 public class rectangulo{
     private int base;
     private int altura;
-    private double coordX;
-    private double coordY;
+    posicion posicion;
 
-    public rectangulo(int base, int altura, double coordX, double coordY) {
+    public rectangulo(int base, int altura, com.company.posicion posicion) {
         this.base = base;
         this.altura = altura;
-        this.coordX = coordX;
-        this.coordY = coordY;
+        this.posicion = posicion;
     }
 
     public static void area(){}
