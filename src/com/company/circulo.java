@@ -1,6 +1,6 @@
 package com.company;
 
-public class circulo {
+public class circulo{
     private int radio;
     posicion posicion;
 
@@ -9,6 +9,4 @@ public class circulo {
         this.posicion = posicion;
     }
 
-    public static void area(){}
-    public static void perimetro(){}
 }

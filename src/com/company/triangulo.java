@@ -1,13 +1,21 @@
 package com.company;
 
-public class triangulo {
+public class triangulo extends poligono{
     posicion[] pos;
 
-    public triangulo(posicion[] pos) {
+    public triangulo(int base, int altura, posicion[] pos) {
+        super(base, altura);
         this.pos = pos;
     }
 
-    public static void area(){}
-    public static void perimetro(){}
+    @Override
+    public double area() {
+        return 0;
+    }
 
+    @Override
+    public double perimetro() {
+        return 0;
+    }
 }
+

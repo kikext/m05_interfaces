@@ -1,13 +1,18 @@
 package com.company;
 
-public class rectangulo{
-    posicion posicion;
+public class rectangulo extends poligono{
 
-    public rectangulo(com.company.posicion posicion) {
-
-        this.posicion = posicion;
+    public rectangulo(int base, int altura) {
+        super(base, altura);
     }
 
-    public static void area(){}
-    public static void perimetro(){}
+    @Override
+    public double area() {
+        return 0;
+    }
+
+    @Override
+    public double perimetro() {
+        return 0;
+    }
 }
